@@ -8,6 +8,10 @@ Inspired by https://github.com/thannaske/oekofen-json-documentation and partly b
 * https://www.loxforum.com/forum/hardware-zubeh%C3%B6r-sensorik/291732-wasserleckerkennung-mit-syr-safe-tech
 * https://www.msxfaq.de/sonst/iot/syr_safe-t_connect.htm
 
+**There is now also a pretty comprehensive official SYR API description available at: https://iotsyrpublicapi.z1.web.core.windows.net/**
+
+**It currently does not explicitly cover the "SafeTech Connect", but the API looks similar enough.**
+
 ## Accessing the API
 The API can simply be accessed via HTTP and returns fields as JSON.
 Reading out most of the values requires regularly setting the "admin" or expert mode, otherwise most of the interesting fields will be returned as `"ERROR: ADM"`. 
